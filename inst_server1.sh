@@ -11,6 +11,8 @@ mv postgresql-10.16 /usr/local/src
 
 echo "Será instalado o pacote Buil-Essential digite y e clique em ENTER"
 
+apt-get update -y
+
 apt-get install build-essential
 
 cd /usr/local/src
